@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50sp"
+            android:fontFamily="sans-serif-black"
+            android:text="Latihan 5"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-black"
+            android:text="Pemrograman Mobile "
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/btnSuhu"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:backgroundTint="#6D6460"
+            android:text="Konversi Suhu" />
+
+        <Button
+            android:id="@+id/btnBelanja"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:backgroundTint="#6D6460"
+            android:text="Belanja Diskon" />
+
+        <Button
+            android:id="@+id/btnBalok"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:backgroundTint="#6D6460"
+            android:text="Luas P. dan Volume Balok" />
+
+        <Button
+            android:id="@+id/btnGenGan"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            android:backgroundTint="#6D6460"
+            android:text="Bilangan Ganjil Genap" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
